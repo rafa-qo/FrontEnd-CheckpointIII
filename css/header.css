@@ -1,5 +1,68 @@
 header {
-  height: 100px;
-  background-color: #e4d7d7;
+  height: 90px;
+  background-color: #ebe9e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #logo img {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header #logo img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+header img {
+  width: 80px;
+}
+
+header menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+header li {
+  list-style: none;
+  text-decoration: none;
+}
+
+header li:nth-child(4) {
+  color: #7c1717;
+}
+
+header li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+
+header li a:hover {
+  color: #686767 !important;
+  font-weight: bold;
+}
+
+header li a:nth-child:hover {
+  color: #7c1717;
 }
 /*# sourceMappingURL=header.css.map */
