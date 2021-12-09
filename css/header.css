@@ -1,7 +1,15 @@
 header {
   height: 90px;
+<<<<<<< HEAD
   width: 100%;
+=======
+<<<<<<< HEAD
+  margin: 0;
+  background-color: #181818;
+=======
+>>>>>>> 0fe05d9775feaa976cddf55cf6752cb8d7123549
   background-color: #000000;
+>>>>>>> b9496593275941877c097a9866b115ce0684f041
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
