@@ -1,0 +1,13 @@
+footer {
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+/*# sourceMappingURL=footer.css.map */
