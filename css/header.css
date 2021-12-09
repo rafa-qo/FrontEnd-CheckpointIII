@@ -1,6 +1,6 @@
 header {
   height: 90px;
-  background-color: #ebe9e9;
+  background-color: #181818;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,6 +13,7 @@ header {
 }
 
 header #logo img {
+  width: 80px;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -22,8 +23,8 @@ header #logo img:hover {
           transform: scale(1.03);
 }
 
-header img {
-  width: 80px;
+header #logo a {
+  text-decoration: none;
 }
 
 header menu {
@@ -35,34 +36,36 @@ header menu {
           align-items: center;
 }
 
-header ul {
+header menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-header li {
+header menu li {
   list-style: none;
   text-decoration: none;
+  font-style: bold;
 }
 
-header li:nth-child(4) {
-  color: #7c1717;
-}
-
-header li a {
+header menu li a {
   list-style: none;
   text-decoration: none;
-  color: #000;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
-header li a:hover {
-  color: #686767 !important;
+header menu li a:hover {
+  color: #c54e4e !important;
   font-weight: bold;
 }
 
-header li a:nth-child:hover {
+header menu li:nth-child(4) {
   color: #7c1717;
 }
 /*# sourceMappingURL=header.css.map */
