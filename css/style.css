@@ -14,7 +14,7 @@ main {
 }
 
 section {
-  height: calc(100vh - 101px);
+  height: 87.89vh;
   margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ section .carousel-custom {
 }
 
 section .carousel-custom img {
-  height: calc(100vh - 101px);
+  height: 87.89vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
