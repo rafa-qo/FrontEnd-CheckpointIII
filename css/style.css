@@ -13,22 +13,22 @@ main {
   background-color: #bdacac;
 }
 
-section {
+.first-banner {
   height: 87.89vh;
   margin: 0 auto;
 }
 
-section .carousel-custom {
+.first-banner .carousel-custom {
   height: 100%;
 }
 
-section .carousel-custom img {
+.first-banner .carousel-custom img {
   height: 87.89vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-section .carousel-custom h5, section .carousel-custom p {
+.first-banner .carousel-custom h5, .first-banner .carousel-custom p {
   color: white;
   -webkit-filter: drop-shadow(0 0 3px black);
           filter: drop-shadow(0 0 3px black);
@@ -76,5 +76,44 @@ section .carousel-custom h5, section .carousel-custom p {
   background-color: crimson;
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+}
+
+.item {
+  width: 100vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.item .item-img {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.item .item-img img {
+  width: 100vw;
+  height: 87.89vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.item .item-desc {
+  width: 80vw;
+  display: block;
+}
+
+.item .item-desc h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.item .item-desc p {
+  line-height: 2rem;
+  margin: 20px 0 20px 0;
+}
+
+.item .item-video iframe {
+  width: 70vw;
+  height: calc(210vw/4);
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

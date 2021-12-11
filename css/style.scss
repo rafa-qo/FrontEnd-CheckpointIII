@@ -18,7 +18,7 @@ main {
     
 }
 
-section {
+.first-banner {
 
     height: 87.89vh;
     margin: 0 auto;
@@ -90,5 +90,50 @@ section {
         }
         
     }
+
     
+    
+}
+
+.item {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    // display: block;
+
+    .item-img{
+        
+        background-color: rgba(0, 0, 0, 0.800);
+
+        img {
+            width: 100vw;
+            height: 87.89vh;
+            object-fit: cover;
+            
+        }
+    }
+
+    .item-desc {
+        width: 80vw;
+        display: block;
+
+        h1 {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 2rem;
+            margin: 20px 0 20px 0;
+        }
+
+    }
+
+    .item-video iframe{
+        width: 70vw;
+        height: calc(210vw/4);
+        border-radius: 10px;
+    }
+
 }
