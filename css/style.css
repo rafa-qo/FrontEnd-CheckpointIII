@@ -79,17 +79,13 @@ main {
 }
 
 .item {
-  width: 100vw;
+  width: 98.7vw;
   height: auto;
   margin: 0 auto;
 }
 
-.item .item-img {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 .item .item-img img {
-  width: 100vw;
+  width: 98.7vw;
   height: 87.89vh;
   -o-object-fit: cover;
      object-fit: cover;

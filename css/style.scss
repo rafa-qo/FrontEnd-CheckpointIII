@@ -96,21 +96,15 @@ main {
 }
 
 .item {
-    width: 100vw;
+    width: 98.7vw;
     height: auto;
     margin: 0 auto;
     // display: block;
 
-    .item-img{
-        
-        background-color: rgba(0, 0, 0, 0.800);
-
-        img {
-            width: 100vw;
+    .item-img img {
+            width: 98.7vw;
             height: 87.89vh;
             object-fit: cover;
-            
-        }
     }
 
     .item-desc {
