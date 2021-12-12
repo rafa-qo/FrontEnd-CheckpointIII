@@ -16,8 +16,8 @@ header {
 
 header #logo img {
   width: 80px;
-  -webkit-transition: .5s ease-in;
-  transition: .5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
 }
 
 header #logo img:hover {
@@ -51,6 +51,84 @@ header menu ul {
   margin: 0;
 }
 
+header menu .btn-modal {
+  color: #fff;
+  font-weight: 700;
+  background-color: transparent;
+  border: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+header menu .btn-modal:hover {
+  background-color: transparent;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+header menu .btn-modal:focus {
+  background-color: none;
+}
+
+header menu .modal-content {
+  background-color: #1d1d1d;
+}
+
+header menu .modal-content .logo {
+  width: 200px;
+  margin-left: 28%;
+}
+
+header menu .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header menu .login fieldset {
+  margin: 24px 0;
+}
+
+header menu .login fieldset label {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 24px;
+}
+
+header menu .login fieldset input {
+  background-color: #a8a8a8;
+  width: 300px;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px;
+  outline: 0;
+  display: block;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+header menu .login fieldset input:focus {
+  background-color: whitesmoke;
+}
+
+header menu .modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 header menu li {
   list-style: none;
   text-decoration: none;
@@ -61,8 +139,8 @@ header menu li a {
   list-style: none;
   text-decoration: none;
   color: #fff;
-  -webkit-transition: .3s ease-in;
-  transition: .3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
   font-weight: bold;
 }
 

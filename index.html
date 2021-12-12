@@ -17,17 +17,46 @@
 <body>
   <header class="row">
     <div id="logo" class="col-1">
-        <a href="./index.html"><img src="./images/logo02.png" alt="Logo BurgeRRR"></a>
+      <a href="./index.html"><img src="./images/logo02.png" alt="Logo BurgeRRR"></a>
     </div>
 
     <menu id="menu" class="col-2">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#itens">Cardápio</a></li>
-            <li><a href="#footer">Contato</a></li>
-            <li><a href="">Login</a></li>
-        </ul>
-    </menu>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#itens">Cardápio</a></li>
+        <li><a href="#footer">Contato</a></li>
+        <li>
+          <button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#modal">
+            Login
+          </button>
+        </li>
+      </ul>
+
+      <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="logo" src="./images/logo01.png" alt="logo">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="login">
+                <fieldset>
+                  <label for="email">email</label>
+                  <input type="email" name="email" id="email">
+
+                  <label for="password">senha</label>
+                  <input type="password" name="password" id="password">
+                </fieldset>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Sair</button>
+              <button type="button" class="btn btn-outline-danger">Entrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
   </header>
 
@@ -87,8 +116,8 @@
         <div class="col-10 col-md-3 card">
           <img src="./images/hamb01.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Onion 3R</h5>
-            <p class="card-text">Aquele burgueRRR monstro com cebola caramelizada e cheddar até dizer chega!</p>
+            <h5 class="card-title">Burgão RRR</h5>
+            <p class="card-text">O primogênito da família RRR! Desbravador de mundos, conquista bocas e corações.</p>
             <a href="item1.html" class="btn btn-primary">Mais Detalhes</a>
           </div>
         </div>
@@ -96,7 +125,8 @@
           <img src="./images/hamb02.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Burgão RRR</h5>
-            <p class="card-text">O clássico e primogênito burger da nossa família RRR.<br>Feito com carinho até hoje.</p>
+            <p class="card-text">O clássico e primogênito burger da nossa família RRR.<br>Feito com carinho até hoje.
+            </p>
             <a href="item2.html" class="btn btn-primary">Mais Detalhes</a>
           </div>
         </div>
@@ -112,26 +142,25 @@
           <img src="./images/hamb04.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">ToweRRR Defense</h5>
-            <p class="card-text">Defenda a sua torre cute o que custar! Os outros tentaram invadi-la. Fica esperto!!!</p>
+            <p class="card-text">Defenda a sua torre cute o que custar! Os outros tentaram invadi-la. Fica esperto!!!
+            </p>
             <a href="item4.html" class="btn btn-primary">Mais Detalhes</a>
           </div>
         </div>
         <div class="col-10 col-md-3 card">
           <img src="./images/hamb05.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Mais Detalhes</a>
+            <h5 class="card-title">RRRobusto burger</h5>
+            <p class="card-text">Esse é pra quem tem fome! Triplo burger com muito bacon, queijo e molho.</p>
+            <a href="item5.html" class="btn btn-primary">Mais Detalhes</a>
           </div>
         </div>
         <div class="col-10 col-md-3 card">
           <img src="./images/hamb06.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Mais Detalhes</a>
+            <h5 class="card-title">aRRRdido burger</h5>
+            <p class="card-text">Blend especial de carne acompanhado de queijo e pimenta jalapeno empanada.</p>
+            <a href="item6.html" class="btn btn-primary">Mais Detalhes</a>
           </div>
         </div>
       </div>
