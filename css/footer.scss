@@ -1,9 +1,39 @@
 footer {
     background-color: rgb(20, 20, 20);
+    color: white;
     display: flex;
     justify-content: space-around;
+    height: 150px;
+    max-width: 100% !important;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #181818;
+
+    #rafa-queiroz, #rafa-vasc, #paulo-catena {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .ano-dev {
+        font-size: 10px;
+        text-align: center;
+        
+    }
+
+    .logo-icon img {
+        width: 20px;
+        height: auto;
+
+    }
+
+    h1 {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
 }
 
-ul {
-    list-style: none;
-}
