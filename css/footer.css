@@ -6,6 +6,7 @@ footer {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  text-align: center;
   height: 150px;
   max-width: 100% !important;
   margin: 0 auto;
