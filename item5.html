@@ -15,21 +15,61 @@
   <title>Hamburgueria RRR - O melhor lanche do Universo! | RRRobusto burger</title>
 </head>
 <body>
-    <header class="row gx-0">
-        <div id="logo" class="col-1">
-            <a href="./index.html"><img src="./images/logo02.png" alt="Logo BurgeRRR"></a>
-        </div>
+    <header class="gx-0 center-block">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div id="logo" class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./images/logo02.png" alt="Logo BurgeRRR"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#itens">Cardapio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#footer">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                        <button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#modal">
+                          Login
+                        </button>
+                  </li>
+                </ul>
     
-        <menu id="menu" class="col-2">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#itens">Cardápio</a></li>
-                <li><a href="index.html#footer">Contato</a></li>
-                <li><a href="">Login</a></li>
-            </ul>
-        </menu>
+                <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <img class="logo" src="./images/logo01.png" alt="logo">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="login">
+                            <fieldset>
+                              <label for="email">email</label>
+                              <input type="email" name="email" id="email">
+            
+                              <label for="password">senha</label>
+                              <input type="password" name="password" id="password">
+                            </fieldset>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Sair</button>
+                          <button type="button" class="btn btn-outline-danger">Entrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
     
-      </header>
+              </div>
+            </div>
+        </nav>
+    </header>
 
     <main class="item gx-0">
   

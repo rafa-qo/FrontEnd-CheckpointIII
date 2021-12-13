@@ -1,11 +1,15 @@
 header {
     max-width: 99.7vw;
-    height: 90px;
+    height: auto;
     margin: 0 auto;
-    background-color: #181818;
+    background-color: #181818 !important;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    .bg-dark {
+        background-color: #181818 !important;
+    }
 
     #logo {
         img {
@@ -22,7 +26,7 @@ header {
         }
     }
 
-    menu {
+    nav {
         display: flex;
         align-items: center;
         padding: 0;
@@ -102,7 +106,7 @@ header {
         li {
             list-style: none;
             text-decoration: none;
-            // font-weight: bold;
+            font-weight: bold;
             padding: 0;
         }
 

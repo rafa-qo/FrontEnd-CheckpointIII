@@ -1,8 +1,8 @@
 header {
   max-width: 99.7vw;
-  height: 90px;
+  height: auto;
   margin: 0 auto;
-  background-color: #181818;
+  background-color: #181818 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,6 +12,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header .bg-dark {
+  background-color: #181818 !important;
 }
 
 header #logo img {
@@ -29,7 +33,7 @@ header #logo a {
   text-decoration: none;
 }
 
-header menu {
+header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +43,7 @@ header menu {
   padding: 0;
 }
 
-header menu ul {
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,7 +55,7 @@ header menu ul {
   margin: 0;
 }
 
-header menu .btn-modal {
+header nav .btn-modal {
   color: #fff;
   font-weight: 700;
   background-color: transparent;
@@ -60,26 +64,26 @@ header menu .btn-modal {
   transition: 0.3s ease-in-out;
 }
 
-header menu .btn-modal:hover {
+header nav .btn-modal:hover {
   background-color: transparent;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-header menu .btn-modal:focus {
+header nav .btn-modal:focus {
   background-color: none;
 }
 
-header menu .modal-content {
+header nav .modal-content {
   background-color: #1d1d1d;
 }
 
-header menu .modal-content .logo {
+header nav .modal-content .logo {
   width: 200px;
   margin-left: 28%;
 }
 
-header menu .login {
+header nav .login {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,18 +97,18 @@ header menu .login {
           align-items: center;
 }
 
-header menu .login fieldset {
+header nav .login fieldset {
   margin: 24px 0;
 }
 
-header menu .login fieldset label {
+header nav .login fieldset label {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 800;
   margin-top: 24px;
 }
 
-header menu .login fieldset input {
+header nav .login fieldset input {
   background-color: #a8a8a8;
   width: 300px;
   border: 0;
@@ -116,11 +120,11 @@ header menu .login fieldset input {
   transition: 0.2s ease-in-out;
 }
 
-header menu .login fieldset input:focus {
+header nav .login fieldset input:focus {
   background-color: whitesmoke;
 }
 
-header menu .modal-footer {
+header nav .modal-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,13 +133,14 @@ header menu .modal-footer {
           justify-content: space-between;
 }
 
-header menu li {
+header nav li {
   list-style: none;
   text-decoration: none;
+  font-weight: bold;
   padding: 0;
 }
 
-header menu li a {
+header nav li a {
   list-style: none;
   text-decoration: none;
   color: #fff;
@@ -144,7 +149,7 @@ header menu li a {
   font-weight: bold;
 }
 
-header menu li a:hover {
+header nav li a:hover {
   color: #c54e4e !important;
   font-weight: bold;
   font-size: 1.1rem;
@@ -152,7 +157,7 @@ header menu li a:hover {
           transform-origin: center;
 }
 
-header menu li:nth-child(4) {
+header nav li:nth-child(4) {
   border-radius: 5px;
   background-color: #7c1717;
   padding: 5px 10px 5px;
